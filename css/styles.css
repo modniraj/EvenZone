@@ -1,0 +1,206 @@
+
+body{
+  font-family: 'Montserrat';
+  font-weight: 300;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-weight: bold;
+}
+
+
+p{
+  color: #8f8f8f;
+  font-weight:600;
+
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* color-sections */
+.colored-section{
+  background-color: #16213e;
+  color: white;
+
+}
+
+.light-shaded-section{
+background-color: #f7fbe1;
+}
+
+/* heading */
+.Big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* title */
+
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+  background : #16213e;
+}
+
+
+/* Navigation bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-weight: 300;
+  font-size: 1.2rem
+}
+
+/* Download-buttons */
+.Download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* features */
+#features{
+  position: relative;
+  }
+
+  .feature-title{
+    font-size: 1.4rem;
+  }
+
+.feature-box{
+padding: 5%;
+}
+
+.icon{
+  color: #16213e;
+
+ margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:#ff4c6d;
+}
+/* Testimonials */
+
+
+#testimonials .container-fluid{
+  background : #16213e;
+  padding-bottom: 0;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 16%;
+  border-radius: 100%;
+  margin: 3% 3%;
+}
+
+
+#press .container-fluid{
+background : #ffe9c5;
+padding-bottom: 0%;
+}
+
+.press-photo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* pricing */
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+
+.individual-card{
+padding: 2% 2% 2%;
+}
+
+
+
+@media (max-width:991px){
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+
+    transform: rotate(0);
+    position:static;
+  }
+
+}
+
+/* footer */
+
+.footer-icon{
+  margin: 0 2% 3%;
+  color: #000;
+}
+.footer-icon:hover{
+  color: #3f3f44 ;
+}
+
+.gallery{
+  width: 40%;
+  height: 15%;
+margin: 25px;
+border-width: medium;
+border-color: black;
+border-style: solid;
+}
+
+.galleryDiv{
+  background-image: url(https://media.giphy.com/media/8YpKmWXLiVwsBcZRsi/giphy.gif);
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contactMe{
+  margin: 4%;
+  border-style: double;
+  padding: 2%;
+  color: white;
+}
+#bg{
+  background-color: #16213e;
+  color: #ffe9c5;
+}
